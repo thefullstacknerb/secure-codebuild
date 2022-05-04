@@ -1,14 +1,16 @@
-# Welcome to your CDK TypeScript project
+# TheFullStackNerb.com - AWS CDK Tutorial Series
+This repository used to support the tutorial below
+https://thefullstacknerb.com/secure-aws-codebuild-environment-variables-using-system-manager-parameter-store-or-secrets-manager-with-cdk/
 
-This is a blank project for TypeScript development with CDK.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Overview
+This sample demonstrate how to secure AWS CodeBuild environment variables using AWS Secrets Manager and SSM Parameter Store
+## Deploy the sample application
+```
+npm run deploy
+```
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+## Clean up
+```
+npm run destroy
+```
