@@ -3,7 +3,7 @@
 export AWS_PAGER=""
 
 # Clean up all resources created in the tutorial
-cdk destroy --toolkit-stack-name "codebuild-example" --all --force
+cdk destroy --all --force
 
 # delete parameters and secret
 aws secretsmanager delete-secret --secret-id thefullstacknerb-rds-credentials
